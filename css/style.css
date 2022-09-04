@@ -1,0 +1,370 @@
+body header {
+  position: relative;
+}
+body header nav #navbarr {
+  z-index: 10 !important;
+}
+body header nav .logo {
+  background-color: #3b55e6;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+body header nav .logo:hover {
+  color: white;
+}
+body header nav #open {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+body header nav::after {
+  content: "Digital Media";
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  transform: rotate(-90deg);
+  font-weight: 100;
+  font-size: 0.5rem;
+  letter-spacing: 7px;
+}
+body header section {
+  position: relative;
+}
+body header section img {
+  text-align: center;
+}
+body header section h2 {
+  position: absolute;
+  color: #2ad8e1;
+  font-size: 6rem;
+  font-style: italic;
+  bottom: 25%;
+  left: 25%;
+}
+body header section .contnat {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+body header section .contnat h4 {
+  position: absolute;
+  right: 50%;
+  font-size: 3rem;
+  font-style: italic;
+  font-family: italic;
+}
+body header section .contnat img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+body header section #btn {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border: 5px solid black;
+  transition: 0.4s;
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  z-index: 20;
+  cursor: pointer;
+}
+body header section #btn:hover {
+  background-color: #3b55e6;
+  color: white;
+}
+body header section .imgs-backgrounds .img1 {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  width: 7%;
+}
+body header section .imgs-backgrounds .img2 {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  width: 7%;
+}
+body header section .imgs-backgrounds .img3 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+}
+body #article_1 {
+  background-color: #3b55e6;
+  position: relative;
+  color: white;
+}
+body #article_1 .col-md-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+body #article_1 .col-md-2 ul li {
+  padding-top: 1.5rem;
+  font-style: italic;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body #article_1 .col-md-2 ul li:hover {
+  color: rgb(173, 173, 173);
+}
+body #article_1 .col-md-2 ul .active {
+  color: rgb(173, 173, 173);
+}
+body #article_1 .text {
+  transition: 0.4s;
+}
+body #article_1 .text div:not(:first-child) {
+  display: none;
+}
+body #article_1 img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+body #section_1 {
+  text-align: center;
+}
+body #section_1 .movie-items {
+  transform: translateY(-20%);
+}
+body #section_1 .movie-items .container .row .col-md-3 .contnat i, body #section_1 .movie-items .container .row .col-md-6 .contnat i {
+  background-color: #2ad8e1;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: white;
+  transition: 0.4s;
+}
+body #section_1 .movie-items .container .row .col-md-3 .contnat i:hover, body #section_1 .movie-items .container .row .col-md-6 .contnat i:hover {
+  transform: scale(1.2);
+}
+body #section_2 .slider-item .item-secroption {
+  position: absolute;
+  background-color: rgba(245, 245, 245, 0.781);
+  bottom: 0;
+}
+body #section_3 figure.items {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+}
+body #section_3 figure.items *,
+body #section_3 figure.items *:before,
+body #section_3 figure.items *:after {
+  box-sizing: border-box;
+  transition: all 0.55s ease;
+}
+body #section_3 figure.items img {
+  max-width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  vertical-align: top;
+  opacity: 0.9;
+}
+body #section_3 figure.items .title {
+  position: absolute;
+  top: 58%;
+  left: 25px;
+  padding: 5px 10px 10px;
+}
+body #section_3 figure.items .title:before,
+body #section_3 figure.items .title:after {
+  height: 2px;
+  width: 400px;
+  position: absolute;
+  content: "";
+  background-color: #ffffff;
+}
+body #section_3 figure.items .title:before {
+  top: 0;
+  left: 10px;
+  transform: translateX(100%);
+}
+body #section_3 figure.items .title:after {
+  bottom: 0;
+  right: 10px;
+  transform: translateX(-100%);
+}
+body #section_3 figure.items .title div:before,
+body #section_3 figure.items .title div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: "";
+  background-color: #ffffff;
+}
+body #section_3 figure.items .title div:before {
+  top: 10px;
+  right: 0;
+  transform: translateY(100%);
+}
+body #section_3 figure.items .title div:after {
+  bottom: 10px;
+  left: 0;
+  transform: translateY(-100%);
+}
+body #section_3 figure.items h2,
+body #section_3 figure.items h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+body #section_3 figure.items h2 {
+  font-weight: 400;
+}
+body #section_3 figure.items h4 {
+  display: block;
+  font-weight: 700;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  color: #000000;
+}
+body #section_3 figure.items figcaption {
+  position: absolute;
+  bottom: 42%;
+  left: 25px;
+  text-align: left;
+  opacity: 0;
+  padding: 5px 60px 5px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+body #section_3 figure.items figcaption p {
+  margin: 0;
+}
+body #section_3 figure.items a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+body #section_3 figure.items:hover img,
+body #section_3 figure.items.static img {
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+}
+body #section_3 figure.items:hover .title:before,
+body #section_3 figure.items.static .title:before,
+body #section_3 figure.items:hover .title:after,
+body #section_3 figure.items.static .title:after,
+body #section_3 figure.items:hover .title div:before,
+body #section_3 figure.items.static .title div:before,
+body #section_3 figure.items:hover .title div:after,
+body #section_3 figure.items.static .title div:after {
+  transform: translate(0, 0);
+}
+body #section_3 figure.items:hover .title:before,
+body #section_3 figure.items.static .title:before,
+body #section_3 figure.items:hover .title:after,
+body #section_3 figure.items.static .title:after {
+  transition-delay: 0.15s;
+}
+body #section_3 figure.items:hover figcaption,
+body #section_3 figure.items.static figcaption {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+body #section_4 {
+  background-color: whitesmoke;
+}
+body #section_4 ul {
+  list-style: none;
+  text-align: start;
+}
+body #section_4 ul .fa-2x {
+  color: #2ad8e1;
+}
+body #section_4 .col-md-6 .d-flex i {
+  text-align: center;
+  color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+body #section_4 .col-md-6 .d-flex i:hover {
+  transform: scale(1.3);
+  box-shadow: 0px 0px 50px gray;
+}
+body #section_5 {
+  background-color: #3b55e6;
+  color: white;
+}
+body footer .container .row .col-md-6 .col-md-4 ul {
+  list-style: none;
+  padding-right: 0;
+}
+
+@media screen and (max-width: 992px) {
+  body header nav .logo {
+    padding: 0.7rem;
+    font-size: 0.8rem;
+  }
+  body header nav #open {
+    color: white;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  body header section h2 {
+    font-size: 4rem;
+  }
+  body header section .contnat h4 {
+    font-size: 2rem;
+  }
+  body header section button {
+    border: 3px solid black;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+  body #section_1 .movie-items {
+    transform: translateY(-10%);
+  }
+  body #section_2 .slider-item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body header nav .logo {
+    padding: 0.4rem;
+    font-size: 0.6rem;
+  }
+  body header nav #open {
+    color: white;
+    padding: 0.6rem;
+    font-size: 0.6rem;
+  }
+  body header section h2 {
+    font-size: 2rem;
+  }
+  body header section .contnat h4 {
+    font-size: 1.5rem;
+  }
+  body header section button {
+    border: 1px solid black;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.6rem;
+  }
+  body #section_1 .movie-items {
+    transform: translateY(0%);
+  }
+  body #section_2 .slider-item {
+    width: 90%;
+  }
+}
